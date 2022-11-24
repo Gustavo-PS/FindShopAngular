@@ -1,0 +1,111 @@
+.conteiner{
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+}
+
+.sub-conteiner{
+    background-color: #FFFFFF90;
+    min-width: 45vw;
+    min-height: 87vh;
+    border-radius: 40px;
+}
+
+.esp{
+    width: 50px;
+}
+
+
+
+.tile{
+    text-align: center;
+    color: rgb(192, 4, 4);
+    margin-top: 35px;
+    font-weight: bold;
+    min-width: 239px;
+}
+.tile h1{
+    font-size: 40px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.li-produtos{
+    font-size: 25px;
+    color: rgb(192, 4, 4);
+    margin-top: 20px;
+    font-weight: 450;
+}
+
+.li-acesso{
+    font-size: 20px;
+    color: rgb(192, 4, 4);
+    justify-content: end;
+    text-align: end;
+}
+
+tr{
+    list-style-type: none;
+    list-style-position: inside;
+    width: 100%;
+    border-radius: 15px;
+}
+tr:hover{
+    box-shadow: 3px 3px 10px 2px #9e0101af;
+}
+td {
+    padding: 8.5px;
+}
+marker{
+    font-size: 35px;
+}
+.entrada input{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    border: 2px solid #3f0101af;
+    margin: 5px;
+    padding: 5px;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+}
+
+.entrada{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    width: 60%;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: transparent;
+    border-color: #9e0101af;
+    color: rgb(192, 4, 4);
+    padding: 7px;
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-in-out;
+    font-weight: 600;
+}
+button:hover{
+    background-color: red;
+    color: white;
+
+}

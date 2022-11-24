@@ -1,0 +1,47 @@
+.toolbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    align-items: center;
+    background-color: #DE4C45;
+    color: white;
+    font-weight: 600;
+    box-shadow: 3px 3px 10px 2px #9e0101af;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    font-size: 25px;
+}
+
+.esp{
+    width: 25%;
+}
+
+.esp2{
+    width: 8%;
+}
+
+span{
+    margin-left: 35px;
+}
+
+.exit{
+    display: flex;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.title{
+    min-width: 420px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

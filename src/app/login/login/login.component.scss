@@ -1,0 +1,103 @@
+.container{
+    margin-top: 70px;
+}
+
+.menu-login{
+    margin-top: 3.5%;
+    padding: 30px;
+    background-color: #ff000090 ;
+    box-shadow: 3px 3px 3px 3px #9e0101af;
+    min-width: 460px;
+    height: 73vh;
+    border-radius: 50px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.entrada input{
+    width: 90%;
+    border: 0;
+    border-bottom: 2px solid #3f0101af;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    min-width: 180px;
+    transition: all .3s ease-in-out;
+    border-radius: 0;
+}
+
+.entrada{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.entrada label{
+    font-size: 25px;
+    color: white;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 4%;
+    transition: all .3s ease-in-out;
+    margin-top: 13px;
+
+}
+
+.entrada input:focus + label{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.label-login{
+    font-size: 20px !important;
+    margin-top: 0 !important;
+}
+
+button{
+    background-color: transparent;
+    border-color: #9e0101af;
+    color: white;
+    padding: 7px;
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-in-out;
+}
+button:hover{
+    background-color: red;
+
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+a{
+    color:#360000af;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}

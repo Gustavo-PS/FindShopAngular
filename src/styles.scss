@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+body {
+    justify-content: center;
+    top: 0;
+    width: 100vw;
+    height:100vh;
+    background-color: #F6EEE0 ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    z-index: -1;
+    display: flex;
+}

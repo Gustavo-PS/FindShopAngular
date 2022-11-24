@@ -1,0 +1,28 @@
+    
+    <div class="container">
+        <div class="menu-login">
+            <h1>Entrar</h1>
+            <div class="entrada justify-center">
+                <input  type="text" id="usuario" [(ngModel)]="usuario.nome">
+                <label for='usuario' [ngClass]="usuario.nome ? 'label-login' : '' ">Usuario</label>
+            </div>
+            <div class="entrada justify-center">
+                <input type="password" id="senha" [(ngModel)]="usuario.senha">
+                <label [ngClass]="usuario.senha ? 'label-login' : '' ">Senha</label>
+            </div>
+            <div class="justify-center">
+                <button (click)="entrar()">
+                    LogIn
+                </button>
+            </div>
+            <div>
+                <hr>
+            </div>
+            <div>
+                <p>
+                    Não tem uma conta?
+                    <a> Cadastre-se </a>
+                </p>
+            </div>
+        </div>
+    </div>
